@@ -1,2 +1,3 @@
 # fc-vae-for-image-generation
-A variational encoder with fully connected layers to generate images.
+A variational autoencoder with fully connected layers to generate images. Details: I wanted to train, using my dataset, the VAE from this article: https://medium.com/@rekalantar/variational-auto-encoder-vae-pytorch-tutorial-dce2d2fe0f5f. My dataset consists of 2555 64x64x3 images.
+I modified the code from the article quite a bit removing some redundant parts and fixing some errors. As my dataset is very small, training for 50 epochs is insufficient; it must be conducted for many more ones. Moreover, looking at a CNN VAE as a more effective option for accomplishing this task may well be worthwhile.
